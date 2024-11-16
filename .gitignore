@@ -1,0 +1,79 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+out/
+*.out
+*.exe
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.*.local
+
+# Miscellaneous
+*.bak
+*.old
+*.orig
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Testing
+*.test.js
+*.spec.js
+test-output/
+
+# Generated files
+*.min.js
+*.min.css
+*.map
+
+# Yarn/PNPM lockfiles
+.pnp.*
+.yarn-integrity
+.yarnrc.yml
+.yarn/
+
+# Monorepo tools
+lerna-debug.log
+packages/**/node_modules/
+
+# Optional: Include these if you're working on a MERN stack project
+# MongoDB data files (if stored locally)
+data/
+*.lock
+
+# Express-specific files
+*.pid
+
+# React-specific files
+*.cache/
